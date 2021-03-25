@@ -228,7 +228,7 @@ friends:
 
 ##########评论设置#############
 comment:
-  on: false
+  on: true
   type: gitalk  # 评论系统：gitalk、disqus、gitment、utteranc、livere,注意：使用时，在下方对应位置进行配置
   comment_count: true  # 文章标题下方显示评论数 目前仅支持 gitalk 和 disqus
   ## 使用说明 https://yelog.org//2020/05/23/3-hexo-comment/
@@ -241,14 +241,15 @@ disqus:
 
 
 gitalk:
-  githubID: yelog
-  repo: yelog.github.io
-  ClientID:
-  ClientSecret:
-  adminUser: yelog
+  githubID: zxr615
+  repo: zxr615.github.io
+  ClientID: 0ea9b0a66146ed3dcc20
+  ClientSecret: 84534118312b9898c87ab706630d7a5902a539c8
+  adminUser: zxr615
   distractionFreeMode: true
   language: zh-CN
   perPage: 10
+  proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token
 # gitalk：利用github issue制作的第三方聊天插件
 # https://github.com/gitalk/gitalk
 # 参数介绍：
